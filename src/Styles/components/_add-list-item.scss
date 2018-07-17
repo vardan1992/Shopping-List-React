@@ -1,0 +1,28 @@
+.add-list-item {
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.add-list-item__input {
+    flex-grow: 1;
+    padding: 20px 0;
+    
+}
+
+.add-list-item__button {
+    border: none;
+    
+}
+
+.add-list-item__errortext {
+    font-style: italic;
+    color: rgb(241, 224, 224);
+    padding: 0;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    
+}

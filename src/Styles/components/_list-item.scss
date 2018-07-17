@@ -1,0 +1,23 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    padding: $m-size 0;
+    border-bottom: 1px solid $header-color;
+}
+
+.list-item__text {
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 26px;
+    word-break: break-all;
+}
+
+.list-item__button {
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
+    height: 40px;
+}
